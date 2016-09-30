@@ -8,5 +8,6 @@ namespace AggregatorTest
 {
     public class Class1
     {
+
     }
 }
