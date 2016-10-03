@@ -10,6 +10,6 @@ ForEach ($script in $buildScripts)
 {
     if($script.FullName -ne $invPath) 
     {
-        Invoke-Expression $script.FullName
+        Invoke-Expression "& '$($script.FullName)'"
     }
 }
